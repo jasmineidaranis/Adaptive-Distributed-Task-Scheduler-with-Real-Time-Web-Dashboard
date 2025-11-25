@@ -47,26 +47,31 @@ Java 11+
 
 Maven 3.6+
 
+
 Build & Run
+
+
 
 Compile
 
 mvn clean package
 
+
+
 Run Application
 
 mvn exec:java -Dexec.mainClass="com.scheduler.Main"
 
+
+
 Run JAR
 
 java -jar target/task-scheduler-2.0.jar
+
+
 
 🌐 Access the Dashboard
 
 Once running, open:
 
 http://localhost:8080
-
-1. Create Project Directory
-mkdir -p task-scheduler/src/main/java/com/scheduler/{model,core,database,web}
-cd task-scheduler
